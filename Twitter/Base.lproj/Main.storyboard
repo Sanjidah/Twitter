@@ -80,7 +80,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hm-sP-PAy">
-                                            <rect key="frame" x="89" y="41" width="270" height="35"/>
+                                            <rect key="frame" x="89" y="11" width="270" height="57"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="68" id="WFf-Rc-wbZ"/>
                                             </constraints>
