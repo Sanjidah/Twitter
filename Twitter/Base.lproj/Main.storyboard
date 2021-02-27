@@ -74,34 +74,31 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOR-mk-eRB">
-                                            <rect key="frame" x="89" y="11" width="69" height="26"/>
+                                            <rect key="frame" x="89" y="11" width="69" height="18"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hm-sP-PAy">
-                                            <rect key="frame" x="89" y="11" width="270" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="68" id="WFf-Rc-wbZ"/>
-                                            </constraints>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hm-sP-PAy">
+                                            <rect key="frame" x="89" y="37" width="270" height="62"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="top" secondItem="KOR-mk-eRB" secondAttribute="top" constant="26" id="DSr-FE-R9h"/>
                                         <constraint firstItem="xcw-MK-n7T" firstAttribute="leading" secondItem="hCG-1T-PHu" secondAttribute="leadingMargin" id="EEf-Hz-n9J"/>
                                         <constraint firstItem="KOR-mk-eRB" firstAttribute="top" secondItem="hCG-1T-PHu" secondAttribute="topMargin" id="Fi6-SL-cb6"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KOR-mk-eRB" secondAttribute="trailing" constant="20" symbolic="YES" id="TTH-jJ-aAs"/>
-                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="trailing" secondItem="hCG-1T-PHu" secondAttribute="trailingMargin" id="Vkq-cv-tAz"/>
                                         <constraint firstItem="xcw-MK-n7T" firstAttribute="leading" secondItem="hCG-1T-PHu" secondAttribute="leadingMargin" id="Wvt-SM-6ae"/>
-                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="bottom" secondItem="hCG-1T-PHu" secondAttribute="bottomMargin" id="XNU-58-FDW"/>
                                         <constraint firstItem="xcw-MK-n7T" firstAttribute="top" secondItem="hCG-1T-PHu" secondAttribute="topMargin" id="YVp-1N-HhH"/>
-                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="leading" secondItem="KOR-mk-eRB" secondAttribute="leading" id="bcX-ek-WyK"/>
-                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="top" secondItem="KOR-mk-eRB" secondAttribute="bottom" constant="4" id="nQh-RW-2G1"/>
+                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="trailing" secondItem="hCG-1T-PHu" secondAttribute="trailingMargin" id="aZ4-ar-UmS"/>
+                                        <constraint firstItem="6Hm-sP-PAy" firstAttribute="leading" secondItem="KOR-mk-eRB" secondAttribute="leading" id="k7I-ft-gb2"/>
                                         <constraint firstItem="xcw-MK-n7T" firstAttribute="top" secondItem="hCG-1T-PHu" secondAttribute="topMargin" id="tiv-HR-Wrm"/>
                                         <constraint firstItem="KOR-mk-eRB" firstAttribute="leading" secondItem="xcw-MK-n7T" secondAttribute="trailing" constant="8" id="vGV-yN-cD9"/>
                                         <constraint firstItem="xcw-MK-n7T" firstAttribute="top" secondItem="hCG-1T-PHu" secondAttribute="topMargin" id="y1T-hl-wYt"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6Hm-sP-PAy" secondAttribute="bottom" constant="10" id="yAi-KC-Ucv"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
