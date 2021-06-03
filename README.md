@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 - [x] User can favorite a tweet. (4pts)
 - [x] User can retweet a tweet. (2pts)
 
-## Video Walkthrough
+## Video Walkthrough Part 2
 
 Here's a walkthrough of implemented user stories:
 
@@ -37,7 +37,7 @@ The following **bonus** features are implemented:
 - [x] User can pull to refresh. (1pt)
 - [ ] User can load past tweets infinitely. (2pts)
 
-## Video Walkthrough
+## Video Walkthrough Part 1
 
 Here's a walkthrough of implemented user stories:
 
